@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Remotes -->
-	<remote name="github" fetch="https://github.com/" />
-	<remote name="gitlab" fetch="https://gitlab.com/" />
+	<remote name="github" fetch="https://github.com/"/>
+	<remote name="gitlab" fetch="https://gitlab.com/"/>
 
 	<!-- Device tree -->
-	<project name="YAJATapps/android_device_allwinner_apollo-p2" path="device/allwinner/apollo-p2" remote="github" revision="omni-12.1" />
-	<project name="YAJATapps/android_device_softwinner" path="device/softwinner" remote="github" revision="omni-12.1" />
+	<project name="YAJATapps/android_device_allwinner_apollo-p2" path="device/allwinner/apollo-p2" remote="github" revision="omni-12.1"/>
+	<project name="YAJATapps/android_device_softwinner" path="device/softwinner" remote="github" revision="omni-12.1"/>
 
 	<!-- Hardware AW -->
-	<project name="YAJATapps/android_hardware_aw" path="hardware/aw" remote="github" revision="omni-12.1" />
-	<project name="YAJATapps/android_hardware_sprd" path="hardware/sprd" remote="github" revision="omni-12.1" />
+	<project name="YAJATapps/android_hardware_aw" path="hardware/aw" remote="github" revision="omni-12.1"/>
+	<project name="YAJATapps/android_hardware_sprd" path="hardware/sprd" remote="github" revision="omni-12.1"/>
 
 	<!-- Hardware libhardware -->
-	<remove-project name="platform/android/hardware/libhardware" />
-	<project name="YAJATapps/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-12.1.0_r7" />
+	<remove-project name="platform/hardware/libhardware"/>
+	<project name="YAJATapps/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-12.1.0_r7"/>
 
 	<!-- Vendor AW -->
-	<project name="YAJATapps/android_vendor_aw" path="vendor/aw" remote="github" revision="omni-12.1" />
-	<project name="YAJATapps/android_vendor_security" path="vendor/security" remote="github" revision="main" />
+	<project name="YAJATapps/android_vendor_aw" path="vendor/aw" remote="github" revision="omni-12.1"/>
+	<project name="YAJATapps/android_vendor_security" path="vendor/security" remote="github" revision="main"/>
 
 	<!-- Vendor omni -->
-	<remove-project name="platform/android/vendor/omni" /> <!-- todo? -->
-	<project name="YAJATapps/android_vendor_omni" path="vendor/omni" remote="github" revision="android-12.1" />
+	<remove-project name="android_vendor_omni"/>
+	<project name="YAJATapps/android_vendor_omni" path="vendor/omni" remote="github" revision="android-12.1"/>
 
 	<!-- WebView -->
-	<remove-project name="platform/android/packages/apps/OmniChromium" /> <!-- todo? -->
-	<project name="YAJATapps/android_packages_apps_OmniChromium" path="packages/apps/OmniChromium" remote="github" revision="omni-12.1" />
+	<remove-project name="android_packages_apps_OmniChromium"/>
+	<project name="YAJATapps/android_packages_apps_OmniChromium" path="packages/apps/OmniChromium" remote="github" revision="omni-12.1"/>
 
 	<!-- System core -->
-	<remove-project name="platform/android/system/core" />
-	<project name="YAJATapps/android_system_core" path="system/core" remote="github" revision="android-12.1" />
+	<remove-project name="platform/system/core"/>
+	<project name="YAJATapps/android_system_core" path="system/core" remote="github" revision="android-12.1"/>
 
 	<!-- System vold -->
-	<remove-project name="platform/android/system/vold" />
-	<project name="YAJATapps/android_system_vold" path="system/vold" remote="github" revision="android-12.1" />
+	<remove-project name="platform/system/vold"/>
+	<project name="YAJATapps/android_system_vold" path="system/vold" remote="github" revision="android-12.1"/>
 
 	<!-- System media -->
-	<remove-project name="platform/android/system/media" />
-	<project name="YAJATapps/android_system_media" path="system/media" remote="github" revision="android-12.1.0_r7" />
+	<remove-project name="platform/system/media"/>
+	<project name="YAJATapps/android_system_media" path="system/media" remote="github" revision="android-12.1.0_r7"/>
 
 	<!-- Frameworks AV -->
-	<remove-project name="platform/android/frameworks/av" />
-	<project name="YAJATapps/android_frameworks_av" path="frameworks/av" remote="github" revision="android-12.1" />
+	<remove-project name="platform/frameworks/av"/>
+	<project name="YAJATapps/android_frameworks_av" path="frameworks/av" remote="github" revision="android-12.1"/>
 
 	<!-- Frameworks wifi -->
-	<remove-project name="platform/android/frameworks/opt/net/wifi" />
-	<project name="YAJATapps/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="android-12.1.0_r7" />
+	<remove-project name="platform/frameworks/opt/net/wifi"/>
+	<project name="YAJATapps/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="android-12.1.0_r7"/>
 
 	<!-- Longan build -->
-	<project name="Yajat/android_longan" path="longan" remote="gitlab" revision="main" />
+	<project name="Yajat/android_longan" path="longan" remote="gitlab" revision="main"/>
 </manifest>
