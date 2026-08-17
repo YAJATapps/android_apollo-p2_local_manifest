@@ -49,7 +49,7 @@
 	<project name="YAJATapps/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github_ssh" revision="android-12.1.0_r7"/>
 
 	<!-- Longan build -->
-	<project name="Yajat/android_longan" path="longan" remote="gitlab_ssh" revision="main"/>
+	<project name="Yajat/android_longan" path="longan" remote="gitlab_ssh" revision="omni-12.1"/>
 
 	<!-- Old frameworks base has a12 branch -->
 	<remove-project name="android_frameworks_base"/>
