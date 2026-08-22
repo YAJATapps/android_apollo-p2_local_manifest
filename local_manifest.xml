@@ -5,8 +5,9 @@
 	<remote name="gitlab_ssh" fetch="ssh://git@gitlab.com"/>
 
 	<!-- Device tree -->
-	<project name="YAJATapps/android_device_allwinner_apollo-p2" path="device/allwinner/apollo-p2" remote="github_ssh" revision="lineage-23.2"/>
 	<project name="YAJATapps/android_device_softwinner" path="device/softwinner" remote="github_ssh" revision="lineage-23.2"/>
+	<project name="YAJATapps/android_device_allwinner_apollo-p2" path="device/allwinner/apollo-p2" remote="github_ssh" revision="lineage-23.2"/>
+	<project name="YAJATapps/android_vendor_allwinner_apollo-p2" path="vendor/allwinner/apollo-p2" remote="github_ssh" revision="lineage-23.2"/>
 
 	<!-- Longan build -->
 	<project name="Yajat/android_longan" path="longan" remote="gitlab_ssh" revision="lineage-23.2"/>
