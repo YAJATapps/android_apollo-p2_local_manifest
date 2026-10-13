@@ -56,6 +56,6 @@ Run the automated patching script to apply necessary platform fixes:
 
 ```bash
 source build/envsetup.sh
-lunch lineage_apollo_p2-trunk_staging-userdebug
+lunch lineage_apollo_p2-cp2a-userdebug
 m
 ```
