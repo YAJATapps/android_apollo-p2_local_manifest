@@ -59,3 +59,17 @@ source build/envsetup.sh
 lunch lineage_apollo_p2-cp2a-userdebug
 m
 ```
+
+---
+
+## 7. Pack Firmware Image
+
+Pack the final image into Allwinner format (PhoenixCard / LiveSuit flashable):
+
+```bash
+pack
+```
+
+The output image is generated at:
+`longan/out/h618_android17_p2_uart0.img`
+
